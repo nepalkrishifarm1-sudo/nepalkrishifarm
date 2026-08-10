@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nepal Krishi Tatha Pasupanchi Farm | Social Links</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --forest: #1B4D2E;
+    --leaf:   #3A7D44;
+    --lime:   #8DC63F;
+    --cream:  #F9F5EC;
+    --earth:  #C4843A;
+    --dark:   #0F2A19;
+    --text:   #1E1E1E;
+    --muted:  #5A6E5C;
+    --ig: linear-gradient(135deg,#feda75 0%,#fa7e1e 25%,#d62976 50%,#962fbf 75%,#4f5bd5 100%);
+    --fb:#1877F2;
+    --tt-bg:#000000;
+    --yt:#FF0000;
+    --wa:#25D366;
+    --radius:24px;
+    --gap:18px;
+  }
+
+  body{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:
+      linear-gradient(135deg, rgba(15,42,25,0.92) 0%, rgba(27,77,46,0.85) 60%, rgba(45,107,58,0.8) 100%),
+      var(--dark);
+    font-family:'Inter', sans-serif;
+    padding:24px;
+  }
+
+  .wrap{
+    width:100%;
+    max-width:360px;
+    text-align:center;
+  }
+
+  .logo{
+    width:88px;
+    height:88px;
+    border-radius:50%;
+    object-fit:cover;
+    background:var(--cream);
+    border:3px solid rgba(141,198,63,.4);
+    box-shadow:0 4px 20px rgba(0,0,0,0.35);
+    margin-bottom:18px;
+  }
+
+  .tag{
+    display:inline-block;
+    background:rgba(141,198,63,.15);
+    border:1px solid rgba(141,198,63,.4);
+    color:var(--lime);
+    font-size:.72rem; font-weight:600;
+    letter-spacing:.12em; text-transform:uppercase;
+    padding:6px 16px; border-radius:30px;
+    margin-bottom:14px;
+  }
+
+  h1{
+    font-family:'Playfair Display', serif;
+    color:var(--cream);
+    font-size:1.5rem;
+    font-weight:700;
+    letter-spacing:0.3px;
+    margin:0 0 6px;
+  }
+
+  h1 span{ color:var(--lime); }
+
+  p.sub{
+    color:rgba(249,245,236,0.75);
+    font-size:13px;
+    margin:0 0 26px;
+  }
+
+  .grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:var(--gap);
+  }
+
+  .tile{
+    aspect-ratio:1/1;
+    border-radius:var(--radius);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    text-decoration:none;
+    color:#fff;
+    font-family:'Inter', sans-serif;
+    font-weight:600;
+    font-size:14px;
+    letter-spacing:0.2px;
+    transition:transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow:0 4px 14px rgba(0,0,0,0.3);
+  }
+
+  .tile:hover{
+    transform:translateY(-4px);
+    box-shadow:0 12px 26px rgba(141,198,63,.25);
+  }
+
+  .tile:active{
+    transform:translateY(0);
+  }
+
+  .tile svg{
+    width:32px;
+    height:32px;
+  }
+
+  .instagram{ background:var(--ig); }
+  .facebook{ background:var(--fb); }
+  .whatsapp{ background:var(--wa); }
+  .tiktok{ background:var(--tt-bg); border:1px solid #2a2a2a; }
+  .youtube{ background:var(--yt); }
+  .website{ background:var(--leaf); border:1px solid rgba(141,198,63,.4); }
+
+  footer{
+    margin-top:28px;
+    color:rgba(249,245,236,0.5);
+    font-size:11px;
+    letter-spacing:.04em;
+  }
+
+  @media (max-width:360px){
+    .tile{ font-size:12.5px; }
+    .tile svg{ width:26px; height:26px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <img class="logo" src="logo.png" alt="Nepal Krishi Tatha Pasupanchi Farm Logo">
+  <div class="tag">Jhapa · Nepal</div>
+  <h1>Nepal Krishi <span>Tatha Pasupanchi Farm</span></h1>
+  <p class="sub">Connect with us</p>
+
+  <div class="grid">
+    <!-- Facebook -->
+    <a class="tile facebook" href="https://facebook.com/nepalkrishifarm1" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M15.5 8.5H13.8c-.6 0-1 .5-1 1.1V12h2.6l-.4 2.7h-2.2V21h-2.8v-6.3H8v-2.7h2v-2.1c0-2 1.3-3.9 3.6-3.9h1.9v2.5z" fill="white"/>
+      </svg>
+      Facebook
+    </a>
+    <!-- YouTube -->
+    <a class="tile youtube" href="https://youtube.com/@nepalkrishifarm1" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="2" y="5.5" width="20" height="13" rx="4" stroke="white" stroke-width="1.8"/>
+        <path d="M10.5 9.5v5l4.3-2.5-4.3-2.5z" fill="white"/>
+      </svg>
+      YouTube
+    </a>
+    <!-- TikTok -->
+    <a class="tile tiktok" href="https://tiktok.com/@nepal.krishi.farm" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M16.5 2.5c.4 2.2 1.8 3.7 4 3.9v2.7c-1.4.1-2.7-.3-4-1.1v6.4a5.6 5.6 0 1 1-5.6-5.6c.3 0 .6 0 .9.1v2.8a2.8 2.8 0 1 0 2 2.7V2.5h2.7z" fill="white"/>
+      </svg>
+      TikTok
+    </a>
+    <!-- WhatsApp -->
+    <a class="tile whatsapp" href="https://wa.me/9779764478480" target="_blank" rel="noopener">
+      <svg viewBox="0 0 32 32" fill="white" xmlns="http://www.w3.org/2000/svg">
+        <path d="M16.001 3C9.107 3 3.5 8.607 3.5 15.5c0 2.42.687 4.68 1.877 6.598L3 29l7.1-2.32a12.42 12.42 0 0 0 5.9 1.5h.001c6.894 0 12.5-5.607 12.5-12.5S22.895 3 16.001 3zm0 22.7h-.001a10.17 10.17 0 0 1-5.19-1.423l-.372-.221-3.855 1.26 1.283-3.72-.242-.383a10.18 10.18 0 0 1-1.567-5.412C6.058 9.85 10.408 5.5 16.001 5.5c2.72 0 5.276 1.06 7.198 2.984a10.11 10.11 0 0 1 2.981 7.196c0 5.593-4.35 9.943-10.179 10.02zm5.573-7.63c-.305-.153-1.804-.89-2.084-.992-.28-.102-.484-.152-.687.153-.203.305-.788.99-.966 1.194-.178.203-.356.229-.66.076-.305-.153-1.288-.475-2.453-1.514-.907-.809-1.52-1.808-1.698-2.113-.178-.305-.019-.47.134-.622.137-.137.305-.356.457-.534.153-.178.203-.305.305-.508.102-.203.05-.381-.026-.534-.076-.153-.687-1.657-.942-2.27-.248-.596-.5-.515-.687-.524a13 13 0 0 0-.585-.011c-.203 0-.534.076-.813.381-.28.305-1.067 1.043-1.067 2.545s1.093 2.953 1.245 3.157c.153.203 2.15 3.283 5.208 4.604.727.314 1.294.501 1.737.641.73.232 1.394.199 1.92.121.586-.088 1.804-.738 2.058-1.451.254-.712.254-1.323.178-1.451-.076-.127-.28-.203-.585-.356z"/>
+      </svg>
+      WhatsApp
+    </a>
+
+    <!-- Instagram -->
+    <a class="tile instagram" href="https://instagram.com/nepal.krishi.farm" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="2" y="2" width="20" height="20" rx="6" stroke="white" stroke-width="1.8"/>
+        <circle cx="12" cy="12" r="4.6" stroke="white" stroke-width="1.8"/>
+        <circle cx="17.3" cy="6.7" r="1.1" fill="white"/>
+      </svg>
+      Instagram
+    </a>
+
+    <!-- Website -->
+    <a class="tile website" href="https://www.nepalkrishifarm.com.np" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="12" r="9.2" stroke="white" stroke-width="1.8"/>
+        <path d="M2.8 12h18.4M12 2.8c2.6 2.6 4 5.8 4 9.2s-1.4 6.6-4 9.2c-2.6-2.6-4-5.8-4-9.2s1.4-6.6 4-9.2z" stroke="white" stroke-width="1.8"/>
+      </svg>
+      Website
+    </a>
+
+  </div>
+
+  <footer>© Nepal Krishi Tatha Pasupanchi Farm</footer>
+</div>
+
+</body>
+</html>
